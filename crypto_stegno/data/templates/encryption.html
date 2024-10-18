@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Encryption</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/style1.css">
+  </head>
+  <body style="padding: 5% 20%; background-image: url('/static/img/enc.png'); background-size: cover;">
+
+    <div style="padding: 10% 20%;">
+
+      <h1 class="title is-2 has-text-white">Sender Side</h1>
+
+      <form method="post" action="{% url 'encryption' %}">
+        {% csrf_token %}
+        <div class="field">
+          <label class="label has-text-white" for="source_name">Source Name</label>
+          <div class="control">
+            <input class="input" type="text" id="source_name" name="source_name" placeholder="Source Name" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label has-text-white" for="prime_1">Prime 1</label>
+          <div class="control">
+            <input class="input" type="text" id="prime_1" name="prime_1" placeholder="Enter Prime no.1" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label has-text-white" for="prime_2">Prime 2</label>
+          <div class="control">
+            <input class="input" type="text" id="prime_2" name="prime_2" placeholder="Enter Prime no.2" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label has-text-white" for="cover_name">Cover Name</label>
+          <div class="control">
+            <input class="input" type="text" id="cover_name" name="cover_name" placeholder="Cover name" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label has-text-white" for="new_name">New Image Name</label>
+          <div class="control">
+            <input class="input" type="text" id="new_name" name="new_name" placeholder="Enter New Name for saving Image" required>
+          </div>
+        </div>
+        <input type="submit" class="button" value="Encrypt">
+        <input type="reset" class="button" value="Reset">
+      </form>
+
+    </div>
+
+  </body>
+</html>

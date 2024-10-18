@@ -1,0 +1,27 @@
+{% load static %}
+<html>
+ <head>
+  <title>Home</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <style>
+   .logo-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 50vh;
+   }
+   .logo {
+     max-width: 100%;
+     height: auto;
+   }
+  </style>
+ </head>
+ <body>
+  <h1 class="title is-1 has-text-centered has-text-white"> Welcome To </h1>
+  <h1 class="title is-1 has-text-centered has-text-white"> Secure Encryption And Decryption Using Crypto And Stego </h1>
+  <div class="logo-container">
+   <a href="encryption.html"><img src="{% static 'images/enc.png' %}" class="logo"></a>
+   <a href="decryption.html"><img src="{% static 'images/dec.png' %}" class="logo"></a>
+  </div>
+ </body>
+</html>

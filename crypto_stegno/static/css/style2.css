@@ -1,0 +1,38 @@
+body {
+  background-color: #1e272e;
+}
+
+.title {
+  font-size: 36px;
+
+}
+
+.has-text-white {
+  color: #fff;
+}
+
+.field label {
+  font-size: 20px;
+}
+
+.input {
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #4a4a4a;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #2ecc71;
+  color: #fff;
+  cursor: pointer;
+}
