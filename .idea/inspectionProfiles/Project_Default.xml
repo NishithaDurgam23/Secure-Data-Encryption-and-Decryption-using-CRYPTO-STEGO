@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E305" />
+          <option value="W292" />
+          <option value="E231" />
+          <option value="E265" />
+          <option value="E114" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="templates.views.filters" />
+          <option value="templates.filters" />
+          <option value="templates.views.forms" />
+          <option value="templates.views.models" />
+          <option value="templates.forms" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
