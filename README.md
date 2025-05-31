@@ -99,6 +99,7 @@ You are free to use, modify, and distribute the code with proper attribution.
 
 ---
 📬 Contact
+
 Developed by Nishitha Durgam
 Feel free to reach out via:
 
